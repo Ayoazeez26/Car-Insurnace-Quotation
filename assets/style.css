@@ -1,0 +1,44 @@
+body {
+    background: rgb(23,80,147);
+    background: linear-gradient(90deg, rgba(23,80,147,1) 0%, rgba(61,200,154,1) 100%);
+}
+
+.container {
+    display: flex;
+}
+
+.emailRow {
+    background: #FFF;
+}
+
+form {
+    margin: 0 auto !important;
+}
+
+.formRow {
+    margin-top: 50px;
+}
+
+.displayGifs {
+    display: flex;
+    margin-bottom: 40px;
+}
+
+.spinner{
+    margin: 0 auto;
+    display: none;
+}
+
+.sentEmail {
+    margin: 0 auto;
+    display: none;
+    width: 133px;
+    height: 100px;
+}
+
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
